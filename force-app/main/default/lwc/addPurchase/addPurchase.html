@@ -8,7 +8,8 @@
                         label="Category"
                         placeholder='Select Category'
                         options={options.data.values}
-                        onchange={handleCategoryChange}>
+                        onchange={handleCategoryChange}
+                        required>
                 </lightning-combobox>
             </template>
             <lightning-input type="date" label='Purchase Date' onchange={handleDateInput}></lightning-input>
